@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Button } from 'react-native';
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +11,14 @@ export default class App extends React.Component {
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
         <Text>Hi this is Muntaser Qutub</Text>
+		//
+		<Text>E-Receipts</Text>
+		<Button
+  title="Click Me To Learn More"
+  color="#841584"
+  accessibilityLabel="Learn more about this purple button"
+/>
+//
       </View>
     );
   }
