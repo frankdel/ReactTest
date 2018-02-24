@@ -1,4 +1,6 @@
 language: node_js
 node_js:
-    - "iojs"
-    - "8"
+   - "iojs"
+   - "4"
+before_install:
+  - npm i -g npm@4
